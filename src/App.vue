@@ -72,6 +72,12 @@
           aria-describedby="inputGroup-sizing-sm">
       </div>
 
+      <div class="input-group input-group-sm mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Zip-Code</span>
+        <input v-model="Data.getID" type="text" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-sm">
+      </div>
+
 
       Getirmek istediğin id = <input v-model="deger" type="text">
 
@@ -103,8 +109,8 @@ export default {
         getEmail: null,
         getAdress: null,
         getWeb: null,
-        getUserName : null,
-        getID : null,
+        getUserName: null,
+        getID: null,
       },
       deger: "",
 
@@ -142,7 +148,7 @@ export default {
         }
         )
 
-      
+
 
     },
 
